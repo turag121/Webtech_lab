@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<center>
+<h1>AMERICAN INTERNATIONAL UNIVERSITY BANGLADESH (AIUB)</h1>
+</center>
+<form>
+<h3> Personal information</h3>
+<tr>
+<td>First name *</td>
+<td><input type="text" name="fname" maxlength=40 required></td>
+</tr>
+<br>
+
+<tr>
+<td>Email *</td>
+<td><input type="email" name="email" required></td>
+</tr>
+<br>
+
+<tr>
+<td>Phone *</td>
+<td><input type="number" name="phone" required></td>
+</tr>
+<br>
+
+<tr>
+<td>Dath of birth *</td>
+<td><input type="date" name="Ddb" required></td>
+</tr>
+<br>
+
+<tr>
+<td>Gender *</td>
+<td>
+<input type="radio" name="Gender" value= "Male" required> Male
+<input type="radio" name="Gender" value= "Female" required> Female
+<input type="radio" name="Gender" value= "Others" required> Others
+</td>
+</tr>
+<br>
+
+<tr>
+<td>Address *</td>
+<td><input type="adddress" name="address" maxlength=40 required></td>
+</tr>
+<br>
+
+<h3>Academic information</h3>
+
+<tr>
+<td>SSC result *</td>
+<td><input type="text" name="ssc" maxlength=6 required></td>
+</tr>
+<br>
+
+<tr>
+<td>HSC result *</td>
+<td><input type="text" name="hsc" maxlength=6 required></td>
+</tr>
+<br>
+
+<tr>
+<td>Preferred Department *</td>
+  <select name="department" required>
+            <option value="">Select Department</option>
+            <option>CSE</option>
+            <option>CS</option>
+            <option>SE</option>
+            <option>EEE</option>
+            <option>BBA</option>
+   </select>
+ 
+</tr>
+<br>
+
+<tr>
+<td>Interests Area :-</td>
+<td>
+<input type="checkbox" name="interest" value= "Competativre programming" required> Competativre programming
+<input type="checkbox" name="interest" value= "Machine learning" required> Machine learning
+<input type="checkbox" name="interest" value= "Artifitial intelligence" required>Artifitial intelligence
+<br>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+</body>
+</html>
+
+
