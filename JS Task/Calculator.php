@@ -43,10 +43,6 @@ button{
     cursor:pointer;
     border-radius:5px;
 }
-/* 
-button:hover{
-    background:#cfcfcf;
-} */
 
 .operator{
     background:#f9a825;
@@ -62,6 +58,7 @@ button:hover{
     background:#e53935;
     color:white;
 }
+
 </style>
 </head>
 

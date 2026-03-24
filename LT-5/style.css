@@ -1,0 +1,30 @@
+body{
+    display:flex;
+    justify-content: center; 
+}
+
+.container{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(201, 146, 37);
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+textarea{
+    background-color: rgba(245, 245, 245, 0.74);
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 12px;
+   
+}
+
+button{
+    height: 50px;
+    width:100px;
+    background-color: rgb(98, 71, 18);
+    color: white;
+    padding: 10px;
+    margin-left: 50px;
+}
